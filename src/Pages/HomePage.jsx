@@ -1,15 +1,17 @@
 import React from "react";
-import imagen1 from "../images/HomePage/fondoHome.jpg";
-import imagen2 from "../images/HomePage/cardapio-text.png";
 import { categoriesHome } from "../utils/categories";
 
 export const HomePage = () => {
   return (
     <div className="h-screen flex flex-col w-screen bg-[#D2CECE]">
-      <img src={imagen1} alt="imagen-de-fondo" className="w-full" />
+      <img
+        src="https://i.ibb.co/f0GSHk8/fondo-Home.jpg"
+        alt="imagen-de-fondo"
+        className="w-full"
+      />
       <div className="relative w-full bg-white h-[6px] shadow-md">
         <img
-          src={imagen2}
+          src="https://i.ibb.co/Vx7FMyq/cardapio-text.png"
           alt="texto"
           className="absolute left-1/2 transform -translate-x-1/2 top-[-24px]"
         />
