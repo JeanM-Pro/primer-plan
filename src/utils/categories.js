@@ -6,13 +6,16 @@ export const categoriesHome = [
   {
     name: "Cafe",
     icono: cafeIcon,
+    enlace: "cafe",
   },
   {
     name: "Bar",
     icono: barIcon,
+    enlace: "bar",
   },
   {
     name: "Restaurante",
     icono: restauranteIcon,
+    enlace: "restaurante",
   },
 ];

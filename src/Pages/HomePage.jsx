@@ -3,7 +3,7 @@ import { categoriesHome } from "../utils/categories";
 
 export const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col w-screen bg-[#D2CECE]">
+    <div className="h-screen flex flex-col w-screen ">
       <img
         src="https://i.ibb.co/f0GSHk8/fondo-Home.jpg"
         alt="imagen-de-fondo"
@@ -19,15 +19,14 @@ export const HomePage = () => {
       <div className="w-full flex flex-col items-center grow justify-around">
         {categoriesHome.map((c, i) => {
           return (
-            <div
-              key={i}
-              className="flex items-center bg-[#99141B] w-[80%] m px-4 py-2 rounded-[10px]"
-            >
-              <img src={c.icono} alt="icono" />
-              <span className="text-white uppercase text-lg ml-4">
-                {c.name}
-              </span>
-            </div>
+            <a href={`#${c.enlace}`} className="w-[80%]" key={i}>
+              <div className="flex items-center bg-[#99141B] w-full m px-4 py-2 rounded-[10px]">
+                <img src={c.icono} alt="icono" />
+                <span className="text-white uppercase text-lg ml-4">
+                  {c.name}
+                </span>
+              </div>
+            </a>
           );
         })}
       </div>
