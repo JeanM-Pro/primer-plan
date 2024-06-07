@@ -1,62 +1,53 @@
-import dulceLeche from "../images/CafePage/dulce-leche.jpg";
-import ouroBranco from "../images/CafePage/ouro-branco.jpg";
-import capuccino from "../images/CafePage/capuccino.jpg";
-import capuccinoItaliano from "../images/CafePage/capuccino-italiano.jpg";
-import espresoBelga from "../images/CafePage/espreso-belga.jpg";
-import espresoKinder from "../images/CafePage/espreso-kinder.jpg";
-import mocha from "../images/CafePage/mocha.jpg";
-import mochacino from "../images/CafePage/mochacino.jpg";
-
 export const cafes = [
   {
     nombre: "Café Dulce De Leche",
     receta:
       "Café espresso, leite vaporizado, amendoim, dulce de leche argentino e calda de chocolate.",
     precio: 8.0,
-    icono: dulceLeche,
+    icono: "https://i.ibb.co/z2v5y3L/dulce-leche.jpg",
   },
   {
     nombre: "Café Ouro Branco",
     receta:
       "Café espresso, leite vaporizado, Nutella, bombom ouro branco, leite condensado e calda de chocolate.",
     precio: 7.5,
-    icono: ouroBranco,
+    icono: "https://i.ibb.co/Sy1gfhk/2-Caf-Ouro-Branco.jpg",
   },
   {
     nombre: "Capuccino",
     receta:
       "Blend docinho de café, cacau, canela e leite em pó, junto com leite vaporizado e canela.",
     precio: 7.5,
-    icono: capuccino,
+    icono: "https://i.ibb.co/hgnYnYJ/3-Cappuccino.jpg",
   },
   {
     nombre: "Capuccino Italiano",
     receta: "Café espresso, leite e crema de leite.",
     precio: 7.5,
-    icono: capuccinoItaliano,
+    icono: "https://i.ibb.co/GMxyyrn/4-Cappuccino-Italiano.jpg",
   },
   {
     nombre: "Espresso Belga",
     receta: "Café espresso e um brigadeiro belga.",
     precio: 8.5,
-    icono: espresoBelga,
+    icono: "https://i.ibb.co/tzTkQP1/5-Espresso-Belga.jpg",
   },
   {
     nombre: "Espresso Kinder",
     receta: "Café espresso e uma barrinha de chocolate kinder.",
     precio: 8.5,
-    icono: espresoKinder,
+    icono: "https://i.ibb.co/VLNBWxQ/6-Espresso-Kinder.jpg",
   },
   {
     nombre: "Mocha",
     receta: "Café espresso, leite vaporizado e calda de chocolate.",
     precio: 9.5,
-    icono: mocha,
+    icono: "https://i.ibb.co/3mm5LKf/7Mocha.jpg",
   },
   {
     nombre: "Mochaccino",
     receta: "Café espresso, leite vaporizado e leite condensado.",
     precio: 9.5,
-    icono: mochacino,
+    icono: "https://i.ibb.co/Z6swmjD/8-Mochaccino.jpg",
   },
 ];
