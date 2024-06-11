@@ -1,4 +1,4 @@
-import ouroBranco from "../images/CafePage/ouro-branco.png";
+// import ouroBranco from "../images/CafePage/ouro-branco.png";
 
 export const cafes = [
   {
@@ -13,7 +13,7 @@ export const cafes = [
     receta:
       "Café espresso, leite vaporizado, Nutella, bombom ouro branco, leite condensado e calda de chocolate.",
     precio: 7.5,
-    icono: ouroBranco,
+    icono: "../images/CafePage/ouro-branco.png",
   },
   {
     nombre: "Capuccino",
