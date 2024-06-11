@@ -30,11 +30,21 @@ export const CafePage = () => {
                 index === 7 || index === 6 || index === 5 || index === 4
                   ? "right-0 rounded-tl-[24px]"
                   : "rounded-tr-[24px] left-0"
-              } bg-[#D9D9D9] bg-opacity-60 px-4 w-[60%]  py-1`}
+              } bg-[#D9D9D9] bg-opacity-60  w-[60%]`}
             >
-              <p className="font-bold text-sm">{c.nombre}</p>
-              <p className="text-xs ">{c.receta}</p>
-              <p className="text-right text-sm font-bold mt-1">{`${c.precio} R$`}</p>
+              <div
+                className={`bg-black bg-opacity-20 w-full px-4 pt-1 ${
+                  index === 7 || index === 6 || index === 5 || index === 4
+                    ? "right-0 rounded-tl-[24px]"
+                    : "rounded-tr-[24px] left-0"
+                }`}
+              >
+                <p className="font-bold text-sm">{c.nombre}</p>
+              </div>
+              <div className="pb-1 px-4">
+                <p className="text-xs ">{c.receta}</p>
+                <p className="text-right text-sm font-bold mt-1">{`${c.precio} R$`}</p>
+              </div>
             </div>
           </div>
         );

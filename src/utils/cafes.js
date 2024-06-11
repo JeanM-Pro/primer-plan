@@ -1,3 +1,5 @@
+import ouroBranco from "../images/CafePage/ouro-branco.png";
+
 export const cafes = [
   {
     nombre: "Café Dulce De Leche",
@@ -11,7 +13,7 @@ export const cafes = [
     receta:
       "Café espresso, leite vaporizado, Nutella, bombom ouro branco, leite condensado e calda de chocolate.",
     precio: 7.5,
-    icono: "https://i.ibb.co/Sy1gfhk/2-Caf-Ouro-Branco.jpg",
+    icono: ouroBranco,
   },
   {
     nombre: "Capuccino",
