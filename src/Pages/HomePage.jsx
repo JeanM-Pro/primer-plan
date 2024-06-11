@@ -3,18 +3,22 @@ import { categoriesHome } from "../utils/categories";
 
 export const HomePage = () => {
   return (
-    <div className="h-screen flex flex-col w-screen ">
+    <div className="h-[94vh] flex flex-col w-screen ">
       <img
         src="https://i.ibb.co/f0GSHk8/fondo-Home.jpg"
         alt="imagen-de-fondo"
         className="w-full"
       />
-      <div className="relative w-full bg-white h-[6px] shadow-md">
-        <img
-          src="https://i.ibb.co/Vx7FMyq/cardapio-text.png"
-          alt="texto"
-          className="absolute left-1/2 transform -translate-x-1/2 top-[-24px]"
-        />
+      <div className="relative w-full h-4">
+        <div className="w-full flex items-center top-[-26px] absolute">
+          <hr className="h-2 bg-white shadow-md flex-grow" />
+          <img
+            src="https://i.ibb.co/Vx7FMyq/cardapio-text.png"
+            alt="texto"
+            className=""
+          />
+          <hr className="h-2 bg-white shadow-md flex-grow" />
+        </div>
       </div>
       <div className="w-full flex flex-col items-center grow justify-around">
         {categoriesHome.map((c, i) => {
