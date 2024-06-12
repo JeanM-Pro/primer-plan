@@ -40,7 +40,7 @@ export const BarPage = () => {
                 <p className="font-bold text-sm">{c.nombre}</p>
               </div>
               <div className="pb-1 px-4">
-                <p className="text-xs ">{c.receta}</p>
+                <p className="text-xs pt-1">{c.receta}</p>
                 <p className="text-right text-sm font-bold mt-1">{`${c.precio} R$`}</p>
               </div>
             </div>

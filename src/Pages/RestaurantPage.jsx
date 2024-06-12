@@ -1,17 +1,17 @@
-import TextoCafe from "../images/CafePage/cafe-texto.png";
-import { cafes } from "../utils/cafes";
+import textRestaurante from "../images/RestaurantPage/restaurante-texto.png";
+import { restaurant } from "../utils/restaurant";
 
-export const CafePage = () => {
+export const RestaurantPage = () => {
   return (
-    <div className="w-full relative mt-8 pt-8">
+    <div className="w-full relative mt-14 pt-8">
       <img
-        src={TextoCafe}
+        src={textRestaurante}
         alt="texto"
         className="absolute left-[8px] top-[-24px]"
-        id="cafe"
+        id="restaurante"
       />
 
-      {cafes.map((c, index) => {
+      {restaurant.map((c, index) => {
         return (
           <div
             className="overflow-hidden w-full h-[182px] relative mb-[10px]"
@@ -25,20 +25,8 @@ export const CafePage = () => {
               } transform  w-full h-full absolute z-10 scale-[1.8] `}
             />
 
-            <div
-              className={`absolute top-6 z-20 ${
-                index === 7 || index === 6 || index === 5 || index === 4
-                  ? "right-0 rounded-tl-[24px]"
-                  : "rounded-tr-[24px] left-0"
-              } bg-[#D9D9D9] bg-opacity-60  w-[60%]`}
-            >
-              <div
-                className={`bg-black bg-opacity-20 w-full px-4 pt-1 ${
-                  index === 7 || index === 6 || index === 5 || index === 4
-                    ? "right-0 rounded-tl-[24px]"
-                    : "rounded-tr-[24px] left-0"
-                }`}
-              >
+            <div className="absolute top-6 z-20 right-0 rounded-tl-[24px] bg-[#D9D9D9] bg-opacity-60  w-[60%]">
+              <div className="bg-black bg-opacity-20 w-full px-4 pt-1 right-0 rounded-tl-[24px]">
                 <p className="font-bold text-sm">{c.nombre}</p>
               </div>
               <div className="pb-1 px-4">
