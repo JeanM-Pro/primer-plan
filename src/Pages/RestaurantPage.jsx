@@ -1,11 +1,10 @@
-import TextoRestaurante from "../images/Restaurant/restaurante-texto.png";
 import { restaurant } from "../utils/restaurant";
 
 export const RestaurantPage = () => {
   return (
     <div className="w-full relative mt-14 pt-8">
       <img
-        src={TextoRestaurante}
+        src="https://i.ibb.co/HFZCWMH/rest-texto.png"
         alt="texto"
         className="absolute left-[8px] top-[-24px]"
         id="restaurante"
