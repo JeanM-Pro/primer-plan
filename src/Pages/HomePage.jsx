@@ -11,13 +11,13 @@ export const HomePage = () => {
       />
       <div className="relative w-full h-4">
         <div className="w-full flex items-center top-[-26px] absolute">
-          <hr className="h-2 bg-white shadow-md flex-grow" />
+          <hr className="h-2 bg-white flex-grow" />
           <img
             src="https://i.ibb.co/Vx7FMyq/cardapio-text.png"
             alt="texto"
             className=""
           />
-          <hr className="h-2 bg-white shadow-md flex-grow" />
+          <hr className="h-2 bg-white flex-grow" />
         </div>
       </div>
       <div className="w-full flex flex-col items-center grow justify-around">
