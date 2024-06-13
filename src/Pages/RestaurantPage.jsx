@@ -1,4 +1,4 @@
-import TextoRestaurante from "../images/RestaurantPage/restaurante-texto.png";
+import TextoRestaurante from "../images/Restaurant/restaurante-texto.png";
 import { restaurant } from "../utils/restaurant";
 
 export const RestaurantPage = () => {
