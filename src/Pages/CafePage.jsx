@@ -1,15 +1,22 @@
-import TextoCafe from "../images/CafePage/cafe-texto.png";
+// import TextoCafe from "../images/CafePage/cafe-texto.png";
 import { cafes } from "../utils/cafes";
 
 export const CafePage = () => {
   return (
-    <div className="w-full relative mt-8 pt-8">
-      <img
+    <div className="w-full relative mt-16 pt-8">
+      {/* <img
         src={TextoCafe}
         alt="texto"
         className="absolute left-[8px] top-[-24px]"
         id="cafe"
-      />
+      /> */}
+
+      <div
+        id="cafe"
+        className="absolute left-[8px] top-[-24px] border border-[#E51D27] px-2 rounded-md"
+      >
+        <p className="text-2xl font-semibold">Cafe</p>
+      </div>
 
       {cafes.map((c, index) => {
         return (
