@@ -1,20 +1,18 @@
-import textBar from "../images/BarPage/bar-text.png";
 import { bar } from "../utils/bar";
 
 export const BarPage = () => {
   return (
-    <div className="w-full relative mt-14 pt-8">
-      <img
-        src={textBar}
-        alt="texto"
-        className="absolute left-[8px] top-[-24px]"
-        id="bar"
-      />
+    <div id="bar" className="w-full relative mt-14 pt-8">
+      <div className="absolute  top-[-24px] w-full  px-2 ">
+        <div className="border-[#E51D27] border rounded-md w-full pl-2">
+          <p className="text-2xl">Bar</p>
+        </div>
+      </div>
 
       {bar.map((c, index) => {
         return (
           <div
-            className="overflow-hidden w-full h-[182px] relative mb-[10px]"
+            className="overflow-hidden w-full h-[182px] relative mb-4"
             key={index}
           >
             <img

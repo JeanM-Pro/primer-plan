@@ -3,25 +3,17 @@ import { cafes } from "../utils/cafes";
 
 export const CafePage = () => {
   return (
-    <div className="w-full relative mt-16 pt-8">
-      {/* <img
-        src={TextoCafe}
-        alt="texto"
-        className="absolute left-[8px] top-[-24px]"
-        id="cafe"
-      /> */}
-
-      <div
-        id="cafe"
-        className="absolute left-[8px] top-[-24px] border border-[#E51D27] px-2 rounded-md"
-      >
-        <p className="text-2xl font-semibold">Cafe</p>
+    <div id="cafe" className="w-full relative mt-20 pt-8">
+      <div className="absolute  top-[-24px] w-full  px-2 ">
+        <div className="border-[#E51D27] border rounded-md w-full pl-2">
+          <p className="text-2xl">Cafe</p>
+        </div>
       </div>
 
       {cafes.map((c, index) => {
         return (
           <div
-            className="overflow-hidden w-full h-[182px] relative mb-[10px]"
+            className="overflow-hidden w-full h-[182px] relative mb-4"
             key={index}
           >
             <img

@@ -2,18 +2,16 @@ import { restaurant } from "../utils/restaurant";
 
 export const RestaurantPage = () => {
   return (
-    <div className="w-full relative mt-14 pt-8">
-      <img
-        src="https://i.ibb.co/HFZCWMH/rest-texto.png"
-        alt="texto"
-        className="absolute left-[8px] top-[-24px]"
-        id="restaurante"
-      />
-
+    <div id="restaurante" className="w-full relative mt-14 pt-8">
+      <div className="absolute  top-[-24px] w-full  px-2 ">
+        <div className="border-[#E51D27] border rounded-md w-full pl-2">
+          <p className="text-2xl">Restaurante</p>
+        </div>
+      </div>
       {restaurant.map((c, index) => {
         return (
           <div
-            className="overflow-hidden w-full h-[182px] relative mb-[10px]"
+            className="overflow-hidden w-full h-[182px] relative mb-4"
             key={index}
           >
             <img

@@ -3,7 +3,7 @@ import { categoriesHome } from "../utils/categories";
 
 export const HomePage = () => {
   return (
-    <div className="h-[93vh] flex flex-col w-screen" id="home">
+    <div className="h-[90vh] flex flex-col w-screen" id="home">
       <img
         src="https://i.ibb.co/f0GSHk8/fondo-Home.jpg"
         alt="imagen-de-fondo"
